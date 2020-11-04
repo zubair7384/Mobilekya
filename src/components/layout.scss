@@ -1,0 +1,28 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  body {
+    margin: 0;
+  }
+}
+
+// variables
+
+$color-primary: #0544E0;
+
+// Mixins scss
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-x-center {
+  display: flex;
+  justify-content: center;
+}
+@mixin flex-y-center {
+  display: flex;
+  align-items: center;
+}

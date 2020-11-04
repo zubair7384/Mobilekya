@@ -1,0 +1,59 @@
+@import "../layout.scss" ;
+
+.header-container {
+    background: $color-primary;
+    height: 424px;
+    margin: 0 !important;
+    .header-row {
+        width: 1440px;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 42px;
+        margin: 0 auto;
+        .search {
+            position: relative;
+            display: flex;
+            align-items: center;
+            &-input {
+                padding-left: 2rem;
+                color: #fff;
+                width: 736px;
+                height: 32px;
+                &:focus{
+                    outline: none;
+                }
+                background: linear-gradient(90deg, #0544E0 1.88%, rgba(47, 128, 237, 0.5) 97.96%);
+                border: 1.3px solid #F2F2F2;
+                box-sizing: border-box;
+                border-radius: 5px;
+                &::placeholder{
+                    color: #fff;
+                }
+            }
+            .search-image {
+                position: absolute;
+                top: 5px;
+                left: 4px;
+
+            }
+        }
+        .login-signup{
+            justify-content: center;
+            border: 1px solid #F2F2F2;
+            box-sizing: border-box;
+            border-radius: 5px;
+            width: 135px;
+            height: 32px;
+        }
+        .deals, .best-phones, .login-signup {
+            display: flex;
+            align-items: center;
+            &-text {
+                color: #fff;
+                margin: 0;
+                padding-left: 6px;
+                font-size: 14px;
+            }
+        }
+    }
+}
