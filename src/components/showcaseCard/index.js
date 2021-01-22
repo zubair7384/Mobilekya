@@ -30,7 +30,7 @@ export default function ShowcaseCard(props) {
           <p>{props.processor}</p>
         </div>
         <Pricetag price={props.price} />
-        <Viewspec />
+        <Viewspec eyeTitle="view specs" />
         <Heart className="showcasw-heart" />
       </div>
     </div>

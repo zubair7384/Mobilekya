@@ -1,4 +1,4 @@
-.mobile-section {
+.featured-post {
   height: 500px;
   width: 1490px;
   border-bottom: 1px solid #e0e0e0;
@@ -15,5 +15,9 @@
       line-height: 28px;
       font-weight: 400;
     }
+  }
+  .featured-post-container {
+    display: flex;
+    justify-content: space-between;
   }
 }

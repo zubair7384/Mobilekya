@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import Showcase from "../components/showcase"
 import LatestMobiles from "../components/latestMobiles"
 import MobileSection from "../components/mobileSection"
+import FeaturedPost from "../components/featuredPost"
 import Layout from "../components/layout"
 import apiData from "../assets/data"
 
@@ -39,6 +40,7 @@ const IndexPage = () => {
           />
         )
       })}
+      <FeaturedPost />
     </Layout>
   )
 }

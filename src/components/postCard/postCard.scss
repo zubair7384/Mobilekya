@@ -1,0 +1,67 @@
+.post-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 660px;
+  height: 300px;
+  border: 1px solid #e0e0e0;
+  border-radius: 50px;
+  box-sizing: border-box;
+  &-image {
+    width: 245px;
+    height: 245px;
+  }
+  .details {
+    width: 315px;
+    &-title {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 26px;
+    }
+    hr {
+      width: 230px;
+      position: absolute;
+      background: #e0e0e0;
+      height: 1px;
+      border: none;
+    }
+    &-para {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 18px;
+      color: #4f4f4f;
+      padding-top: 25px;
+    }
+    &-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding-top: 1rem;
+      .read-more {
+        cursor: pointer;
+      }
+      .share {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80px;
+        span {
+          font-family: "Roboto";
+          padding-left: 4px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 9px;
+          color: #828282;
+        }
+        .share-image {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

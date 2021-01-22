@@ -8,8 +8,8 @@ import "./mobileSection.scss"
 function MobileSection({ title, data }) {
   console.log(data)
   return (
-    <div className="section-80k">
-      <div className="section-80k-row">
+    <div className="mobile-section">
+      <div className="mobile-section-row">
         <h2>{title}</h2>
         <Button icon={Plus} text="View more" />
       </div>

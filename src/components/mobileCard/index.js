@@ -22,7 +22,7 @@ function MobileCard(props) {
           className="price-tag"
           price={props.price}
         />
-        <Viewspec />
+        <Viewspec eyeTitle="view specs" />
         <Heart className="mobile-heart" />
       </div>
     </div>
