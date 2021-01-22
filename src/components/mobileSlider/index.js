@@ -28,9 +28,9 @@ class MobileSlider extends Component {
   render(props) {
     const settings = {
       dots: true,
-      infinite: true,
       slidesToShow: 6,
       slidesToScroll: 6,
+      infinite: true,
       speed: 2000,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
