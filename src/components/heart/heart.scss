@@ -1,0 +1,15 @@
+.heart-wrapper {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .heart {
+    color: #e838a9;
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .heart-count {
+    font-size: 8px;
+    color: #e838a9;
+  }
+}

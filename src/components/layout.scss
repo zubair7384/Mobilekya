@@ -1,16 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
-  overflow-y: scroll;
   body {
-    margin: 0;
+    width: 100%;
+    font-family: "Roboto";
   }
 }
 
 // variables
 
-$color-primary: #0544E0;
+$color-primary: #0544e0;
 
 // Mixins scss
 @mixin flex-center {
@@ -26,3 +28,18 @@ $color-primary: #0544E0;
   display: flex;
   align-items: center;
 }
+
+// fonts
+
+// @font-face {
+//   font-family: "Roboto-Light";
+//   src: url("../components/Roboto-Light.ttf");
+// }
+// @font-face {
+//   font-family: "Roboto-Bold";
+//   src: url("../assets/fonts/Roboto/Roboto-Bold.ttf");
+// }
+// @font-face {
+//   font-family: "Roboto-Medium";
+//   src: url("../assets/fonts/Roboto/Roboto-Medium.ttf");
+// }

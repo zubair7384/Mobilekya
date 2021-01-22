@@ -1,0 +1,30 @@
+.showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background: #f2f2f2;
+  .showcase-row {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    .galaxy {
+      background: rgb(201, 190, 187);
+      background: linear-gradient(
+        86deg,
+        rgba(201, 190, 187, 1) 0%,
+        rgba(196, 193, 189, 1) 51%,
+        rgba(193, 193, 189, 1) 100%
+      );
+    }
+    .k30 {
+      background: rgb(218, 232, 243);
+      background: linear-gradient(
+        86deg,
+        rgba(218, 232, 243, 1) 0%,
+        rgba(223, 227, 219, 1) 51%,
+        rgba(225, 240, 239, 1) 100%
+      );
+    }
+  }
+}

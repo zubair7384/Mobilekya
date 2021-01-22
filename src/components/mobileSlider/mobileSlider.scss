@@ -1,0 +1,33 @@
+.mobile-slider {
+  width: 1490px;
+  margin: 0 auto;
+  .slick-slider {
+    div {
+      display: flex;
+      justify-content: center;
+      &:focus {
+        outline: none;
+      }
+    }
+    .slick-next:before {
+      display: none;
+    }
+    .slick-prev:before {
+      display: none;
+    }
+  }
+  .slick-dots {
+    bottom: -40px;
+    li {
+      button:before {
+        font-size: 11px;
+      }
+    }
+    .slick-active {
+      button:before {
+        font-size: 11px;
+        color: #00d8a4;
+      }
+    }
+  }
+}

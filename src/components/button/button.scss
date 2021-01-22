@@ -1,0 +1,19 @@
+.button {
+  display: flex;
+  background: #f2f2f2;
+  border-radius: 5px;
+  padding: 1.2rem 1.4rem;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #828282;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}

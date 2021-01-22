@@ -1,12 +1,16 @@
 import React from "react"
-import { Container } from 'semantic-ui-react'
-import "./header.scss"
+import H1 from "../../components/h1"
+import RangeSlider from "../../components/inputRange"
+import Label from "../../components/companyLabel"
 import Logo from "../../assets/svgs/mobile-kya-logo.svg"
 import Deals from "../../assets/svgs/deals-icon.svg"
 import BestPhones from "../../assets/svgs/best-phones-icon.svg"
 import LoginSignup from "../../assets/svgs/login-sign-up-icon.svg"
 import Hamburger from "../../assets/svgs/hamburger-icon.svg"
 import SearchIcon from "../../assets/svgs/search.svg"
+import EyeIcon from "../../assets/svgs/eye-icon.svg"
+import "./header.scss"
+import Button from "../button"
 
 const Header = () =>
     <header className="header-container">
@@ -30,8 +34,18 @@ const Header = () =>
             </div>
             <img src={Hamburger} alt="hamburger" />
         </div>
-        <div>
-            {/* helooo */}
+        <div className="banner-row">
+            <div className="banner-column">
+                <H1 text="Pakistan #1 mobile price website" />
+                <p className="banner-text">
+                    Looking for your latest mobile phone? Choose smartly, before you buy your next smartphone.
+                </p>
+                <Button style={{ fontWeight: "bold", backgroundColor: "#E0E0E0" }} icon={EyeIcon} text="View all mobiles" />
+            </div>
+            <div className="range-column">
+                <RangeSlider />
+                <Label />
+            </div>
         </div>
     </header>
 

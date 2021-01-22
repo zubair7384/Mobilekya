@@ -1,0 +1,17 @@
+.price-tag {
+  width: 85%;
+  background: #00d8a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 42px;
+  padding: 5.9px 12px;
+  margin-top: 28px;
+  h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f2f2f2;
+  }
+}

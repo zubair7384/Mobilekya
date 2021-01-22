@@ -1,0 +1,57 @@
+.showcase-card {
+  position: relative;
+  height: 262px;
+  width: 414px;
+  left: 0px;
+  top: 0px;
+  border-radius: 45px;
+  background: rgb(187, 201, 237);
+  background: linear-gradient(
+    86deg,
+    rgba(187, 201, 237, 1) 0%,
+    rgba(206, 195, 225, 1) 51%,
+    rgba(238, 228, 218, 1) 100%
+  );
+  border-radius: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  .desc-col {
+    padding-right: 1rem;
+    h3 {
+      font-weight: normal;
+      font-family: "Roboto";
+      font-size: 22px;
+      line-height: 26px;
+      color: #333333;
+      margin-bottom: 2px;
+      width: 170px;
+    }
+    .ui.star.rating {
+      padding-bottom: 18px;
+      .active.icon {
+        color: #f2994a !important;
+      }
+    }
+  }
+  .showcase-spec {
+    display: flex;
+    border-bottom: 0.5px solid #bdbdbd;
+    padding-bottom: 4px;
+    padding-top: 8px;
+    p {
+      font-family: "Roboto";
+      padding-left: 6px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 12px;
+      color: #4f4f4f;
+    }
+  }
+  .showcasw-heart {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+  }
+}
