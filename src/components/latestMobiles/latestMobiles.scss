@@ -1,48 +1,52 @@
 .latest-mobiles {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 1440px;
-  height: 432px;
-  margin: 0 auto;
+  width: 1410px;
   border-bottom: 1px solid #e0e0e0;
-
-  .latest-mobile-card {
+  margin: 0 auto;
+  &-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 201px;
-    height: 340px;
-    padding: 20px 26px;
-    border: 1px solid #00d8a4;
-    border-radius: 50px;
-    p {
-      font-family: "Roboto";
-      margin-bottom: 4px;
-      font-size: 12px;
-      color: #828282;
-    }
-    h2 {
-      font-family: "Roboto";
-      font-weight: 400;
-      margin: 0 0 120px 0;
-      font-size: 24px;
-      color: #828282;
-    }
-    .discover {
-      font-family: "Roboto";
+    align-items: center;
+    justify-content: space-between;
+    width: 1410px;
+    height: 432px;
+    margin: 0 auto;
+
+    .latest-mobile-card {
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      align-items: center;
-      width: 147px;
-      height: 30px;
-      font-size: 16px;
-      color: #828282;
-      border: 1px solid #82828280;
+      width: 201px;
+      height: 340px;
+      padding: 20px 26px;
+      border: 1px solid #00d8a4;
       border-radius: 50px;
-      img {
-        width: 26px;
-        padding-right: 4px;
+      p {
+        font-family: "Roboto";
+        margin-bottom: 4px;
+        font-size: 12px;
+        color: #828282;
+      }
+      h2 {
+        font-family: "Roboto";
+        font-weight: 400;
+        margin: 0 0 120px 0;
+        font-size: 24px;
+        color: #828282;
+      }
+      .discover {
+        font-family: "Roboto";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 147px;
+        height: 30px;
+        font-size: 16px;
+        color: #828282;
+        border: 1px solid #82828280;
+        border-radius: 50px;
+        img {
+          width: 26px;
+          padding-right: 4px;
+        }
       }
     }
   }

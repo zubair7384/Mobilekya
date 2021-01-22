@@ -1,5 +1,5 @@
 .mobile-slider {
-  width: 1490px;
+  width: 1440px;
   margin: 0 auto;
   .slick-slider {
     div {
@@ -15,6 +15,14 @@
     .slick-prev:before {
       display: none;
     }
+    // .slick-list {
+    //   .slick-track {
+    //     .slick-slide {
+    //       // display: none;
+    //       margin: 0 1.3rem !important;
+    //     }
+    //   }
+    // }
   }
   .slick-dots {
     bottom: -40px;
