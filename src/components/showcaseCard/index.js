@@ -11,13 +11,13 @@ export default function ShowcaseCard(props) {
   return (
     <div className={`showcase-card ${props.bgColor}`}>
       <div className="image-col">
-        <img src={props.mobileImage} alt={props.mobileImage} />
+        <img src={props.image} alt={props.image} />
       </div>
       <div className="desc-col">
-        <h3>{props.mobileName}</h3>
+        <h3>{props.name}</h3>
         <Rating
           maxRating={5}
-          defaultRating={props.mRating}
+          defaultRating={props.rating}
           icon="star"
           size="small"
         />

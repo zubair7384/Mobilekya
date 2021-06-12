@@ -6,7 +6,6 @@ import MobileCard from "../mobileCard"
 import "./mobileSection.scss"
 
 function MobileSection({ title, data }) {
-  console.log(data)
   return (
     <div className="mobile-section">
       <div className="mobile-section-row">
